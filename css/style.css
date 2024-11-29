@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line-chart{
+    width: 100%;
+}
+.fa-user{
+    background-color:rgb(160, 95, 221);
+    padding: 15px;
+    border-radius: 25px;
+    margin-right: 100px;
+    font-size: 25px;
+    
+}
+.signup{
+    margin-right: 20px;
+}
+.login{
+    margin-right: 20px;
+}
+
+
+
+
+
+/* COUNTER  */
+#counter{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    padding: 40px 0px;
+    width: 100%;
+  }
+  #counter .item{
+    background: #f5f5f5;
+    width: 200px;
+    padding: 40px 50px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  } 
+  #counter .item .count{
+    color: #e8b12d;
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+  #counter .item h3{
+    color: #4f4e28;
+    text-transform: capitalize;
+  }
+
+
+  
+  canvas {
+    border: 1px dotted red;
+  }
+  
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 100%;
+  }
+  
+
+
+
+  
